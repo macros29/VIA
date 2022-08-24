@@ -1,6 +1,13 @@
+In general, I am trying to make the program work better for large datasets (cell number greater than 10k) and making original functions more accessible.
+
 - [x] Removed restriction on knn (used to be less than 100)
 - [ ] Redefine functions corresponding to each intermediate steps
-
+- [ ] Small pop is expressed as either an integer number of cells or a fraction (between 0 and 1) of the total number of cells in the dataset   
+- [x] Add function to plot dimension reduction:   
+   DimPlot(X_dimred: np.array, groups: list, figsize: list = [10, 10],
+            linewidth: float = 1,
+            scatter_alpha: float = 1, scatter_size: float = 1,
+            dpi: int = 150, legend_font_size: float = 6, frameon: bool = False)
 ---
 
 # VIA
