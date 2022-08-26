@@ -1,4 +1,4 @@
-In general, I am trying to make the program work better for large datasets (cell number greater than 10k) and making original functions more accessible.
+In general, I am trying to make the program work better for large datasets (cell number greater than 10k) and making original functions more accessible. Here are a list of changes I made from the original program (v0.2.):
 
 - [x] Removed restriction on knn (used to be less than 100)
 - [ ] Redefine functions corresponding to each intermediate steps
@@ -8,6 +8,9 @@ In general, I am trying to make the program work better for large datasets (cell
             linewidth: float = 1,
             scatter_alpha: float = 1, scatter_size: float = 1,
             dpi: int = 150, legend_font_size: float = 6, frameon: bool = False)
+- [ ] Remove unnecessary class attributtes from VIA
+- [ ] Allowing user to specify super clusters and super terminal clusters during first iteration
+
 ---
 
 # VIA
